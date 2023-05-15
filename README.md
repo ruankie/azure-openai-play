@@ -21,8 +21,10 @@ First look at using Azure's OpenAI Service
 2. Browse the example notebooks in `notebooks/`
 
 ## Useful Resources
+- https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/
 - https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/create-resource?pivots=web-portal
 - https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quickstart?pivots=programming-language-python&tabs=bash
 - https://learn.microsoft.com/en-us/azure/cognitive-services/openai/
 - https://learn.microsoft.com/en-us/legal/cognitive-services/openai/transparency-note?context=%2Fazure%2Fcognitive-services%2Fopenai%2Fcontext%2Fcontext&tabs=text
 - https://dallepreview.blob.core.windows.net/docs/DALL%C2%B7E%20Onboarding%20Guide.pdf?sv=2021-10-04&st=2023-01-31T20%3A00%3A00Z&se=2024-02-01T08%3A00%3A00Z&sr=b&sp=r&sig=nrB3ZSFYGF9yzXJK5%2BMLR%2B5f7FIn4Y5lTlTPZPq13sc%3D
+- https://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/modelshttps://learn.microsoft.com/en-us/azure/cognitive-services/openai/concepts/models

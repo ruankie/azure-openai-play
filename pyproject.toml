@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "py-poetry-template"
+name = "azure-openai"
 version = "0.1.0"
-description = "Minimal template for quickly setting up new python projects with Poetry for virtual environment and dependency management."
+description = "Setting up and playing with Azure OpenAI Service"
 authors = ["Ruan Pretorius"]
 license = "MIT"
 readme = "README.md"

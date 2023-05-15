@@ -15,11 +15,13 @@ First look at using Azure's OpenAI Service
     poetry install
     ```
 2. Set your environment variables in a file called `.env` (see `.env.example`)
+3. [Create a resource and deploy a model using Azure OpenAI](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/create-resource?pivots=web-portal)
 
 ## Usage
 2. Browse the example notebooks in `notebooks/`
 
 ## Useful Resources
+- https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/create-resource?pivots=web-portal
 - https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quickstart?pivots=programming-language-python&tabs=bash
 - https://learn.microsoft.com/en-us/azure/cognitive-services/openai/
 - https://learn.microsoft.com/en-us/legal/cognitive-services/openai/transparency-note?context=%2Fazure%2Fcognitive-services%2Fopenai%2Fcontext%2Fcontext&tabs=text

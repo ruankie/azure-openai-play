@@ -1,62 +1,26 @@
-[![GitHub stars](https://img.shields.io/github/stars/ruankie/poetry-py-template)](https://github.com/ruankie/poetry-py-template/stargazers)
-[![GitHub last commit](https://img.shields.io/github/last-commit/ruankie/poetry-py-template)](https://github.com/ruankie/poetry-py-template/commits/main)
+[![GitHub stars](https://img.shields.io/github/stars/ruankie/azure-openai-play)](https://github.com/ruankie/azure-openai-play/stargazers)
+[![GitHub last commit](https://img.shields.io/github/last-commit/ruankie/azure-openai-play)](https://github.com/ruankie/azure-openai-play/commits/main)
 
-# poetry-py-template
-
-<img src="https://github.com/ruankie/poetry-py-template/assets/58558211/beac2040-3db6-4ab5-a512-ef137a563140" width="240" />
+# azure-openai-play
 
 ## Description
 
-This is a minimal project template for Python projects that uses Poetry for dependency virtual environment management.
+First look at using Azure's OpenAI Service
+
+> 🏗️ Under construction...
 
 ## Setup
-
-### Prerequisites
-1. (Optional) [Download](https://asdf-vm.com/guide/getting-started.html#_2-download-asdf) and [install](https://asdf-vm.com/guide/getting-started.html#_3-install-asdf) [asdf](https://asdf-vm.com/) on your machine to manage the version of Python and Poetry used in this project. Once done, run `asdf install` to install the versions specified in `.tool-versions`. Alternatively, install them manually as described below:
-2. [Install Poetry](https://python-poetry.org/docs/#installation) on your machine
-3. [Install Python 3](https://www.python.org/downloads/) on your machine
-4. Create a virtual environment for your project using the command `poetry install`. This will install all the basic dependencies specified in your `pyproject.toml` file.
-
-### Add Dependencies
-1. You can use the following command to add dependencies to your Poetry env:
-    ```shell
-    poetry add <package>
-    ```
-2. You can also add dev dependencies by running:
-    ```shell
-    poetry add <package> --group dev
-    ```
-### General
-1. Update the `LICENSE` file
-2. Update the `README.md` file
-3. Change the project name, description, version, and authors in `pyproject.toml`
-4. Finally, once you get to this point, you might want to delete the `poetry.lock` file and re-run the following command to update your virtual environment with your new changes:
+1. Set up your virtual env with all the required dependencies
     ```shell
     poetry install
     ```
+2. Set your environment variables in a file called `.env` (see `.env.example`)
 
 ## Usage
-1. Add your own scripts and modules in `src/`
-2. Add your own notebooks in `notebooks/`
-3. Add your own examples of environment variables used in `.env.example`
-4. Add your own unit tests in `tests/`
-5. Double check that you have set up your virtual env correctly by running 
-    ```shell
-    poetry env info
-    ```
-6. To open a shell inside your virtual env, run
-   ```shell
-    poetry shell
-    ```
-7. To run a command within your virtual env, prepend it with `poetry run`. For example:
-   ```shell
-   poetry run echo "hello from poetry env"
-   ```
-8. If at any point you have added more dependencies and you want it to reflect in your `poetry.lock` file, you can run 
-   ```shell
-   poetry update
-   ```
-9. To run your tests, run:
-    ```shell
-    poetry run pytest .
-    ```
+2. Browse the example notebooks in `notebooks/`
+
+## Useful Resources
+- https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quickstart?pivots=programming-language-python&tabs=bash
+- https://learn.microsoft.com/en-us/azure/cognitive-services/openai/
+- https://learn.microsoft.com/en-us/legal/cognitive-services/openai/transparency-note?context=%2Fazure%2Fcognitive-services%2Fopenai%2Fcontext%2Fcontext&tabs=text
+- https://dallepreview.blob.core.windows.net/docs/DALL%C2%B7E%20Onboarding%20Guide.pdf?sv=2021-10-04&st=2023-01-31T20%3A00%3A00Z&se=2024-02-01T08%3A00%3A00Z&sr=b&sp=r&sig=nrB3ZSFYGF9yzXJK5%2BMLR%2B5f7FIn4Y5lTlTPZPq13sc%3D

@@ -18,7 +18,10 @@ First look at using Azure's OpenAI Service
 3. [Create a resource and deploy a model using Azure OpenAI](https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/create-resource?pivots=web-portal)
 
 ## Usage
-2. Browse the example notebooks in `notebooks/`
+
+> Note: Whe using notebooks, make sure you activate the correct poetry environment. You can set your Python kernel to the value that gets returned when you run `poetry run which python`.
+
+1. Browse the example notebooks in `notebooks/`
 
 ## Useful Resources
 - https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/

@@ -5,9 +5,7 @@
 
 ## Description
 
-First look at using Azure's OpenAI Service
-
-> 🏗️ Under construction...
+Easy setup template with basic examples of using Azure's OpenAI Service with the OpenAI API and LangChain
 
 ## Setup
 1. Set up your virtual env with all the required dependencies

@@ -3,6 +3,10 @@
 
 # azure-openai-play
 
+<img src="assets/azure-langchain.jpeg" width="200" />
+
+> Image generated with DALL.E 3
+
 ## Description
 
 Easy setup template with basic examples of using Azure's OpenAI Service with the OpenAI API and LangChain

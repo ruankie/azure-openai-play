@@ -3,6 +3,10 @@
 
 # azure-openai-play
 
+<img src="assets/azure-langchain.jpeg" width="200" />
+
+> Image generated with DALL.E 3
+
 ## Description
 
 Easy setup template with basic examples of using Azure's OpenAI Service with the OpenAI API and LangChain
@@ -22,6 +26,7 @@ Easy setup template with basic examples of using Azure's OpenAI Service with the
 1. Browse the example notebooks in `notebooks/`
 
 ## Useful Resources
+- https://python.langchain.com/docs/integrations/chat/azure_chat_openai
 - https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/
 - https://learn.microsoft.com/en-us/azure/cognitive-services/openai/how-to/create-resource?pivots=web-portal
 - https://learn.microsoft.com/en-us/azure/cognitive-services/openai/quickstart?pivots=programming-language-python&tabs=bash
